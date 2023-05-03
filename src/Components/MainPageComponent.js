@@ -78,15 +78,6 @@ export default function MainPageComponent() {
       <Container>
         <Row className='mt-5'>
           <Col>
-            <div className='projHeading' id='Summary'>
-              <span>S</span>
-              <span>u</span>
-              <span>m</span>
-              <span>m</span>
-              <span>a</span>
-              <span>r</span>
-              <span>y</span>
-            </div>
             <Row className='descBox mt-5'>
               <h1><strong>Harrison Busby</strong></h1>
               <h2>Web Developer</h2>
@@ -191,6 +182,10 @@ export default function MainPageComponent() {
               <span>o</span>
               <span>u</span>
               <span>t</span>
+              <span>&nbsp;</span>
+              <span>M</span>
+              <span>e</span>
+
               </div>
           </div>
 

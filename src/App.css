@@ -10,8 +10,7 @@ body{
   height: auto;
   border-radius: 200px;
   position: relative;
-  box-shadow: 0 0 0 0 #00BFFF;
-  animation: rotate-box-shadow 2s infinite linear;
+  box-shadow: 0 0 10px 0 #00BFFF;
 }
 
 .descBox{
@@ -31,7 +30,7 @@ body{
 
 .projHeading span {
   display: inline-block;
-  animation: showText 3.5s ease-in-out infinite forwards;
+  animation: showText 3.0s ease-in-out forwards;
 }
 
 .projHeading span:nth-child(1) {
@@ -100,7 +99,6 @@ body{
 .projImg2, .projImg3{
   width: 165px !important;
   height: 153px;
- 
 }
 
 .buttonShow{
@@ -139,42 +137,6 @@ body{
   background-color: transparent;
   border: none;
   color: white;
-}
-
-@keyframes rotate-box-shadow {
-  0% {
-    box-shadow: 0 0 0 0 #00BFFF;
-  }
-  10% {
-    box-shadow: 5px 0 20px -5px #00BFFF;
-  }
-  20% {
-    box-shadow: 10px 0 20px -10px #00BFFF;
-  }
-  30% {
-    box-shadow: 15px 5px 20px -10px #00BFFF;
-  }
-  40% {
-    box-shadow: 20px 10px 20px -10px #00BFFF;
-  }
-  50% {
-    box-shadow: 20px 15px 20px -10px #00BFFF;
-  }
-  60% {
-    box-shadow: 15px 20px 20px -10px #00BFFF;
-  }
-  70% {
-    box-shadow: 10px 20px 20px -10px #00BFFF;
-  }
-  80% {
-    box-shadow: 5px 15px 20px -10px #00BFFF;
-  }
-  90% {
-    box-shadow: 0 10px 20px -10px #00BFFF;
-  }
-  100% {
-    box-shadow: 0 5px 20px -5px #00BFFF;
-  }
 }
 
 
