@@ -12,8 +12,6 @@ import DevWeek from '../Assets/IMG_2752.JPG';
 import BcLogo from '../Assets/BuildComp_Logo-removebg-preview (1).png';
 import PokeBall from '../Assets/Poké_Ball_icon.svg.png';
 import Cloud from '../Assets/cloud-icon-8.png';
-import { AiFillGithub} from 'react-icons/ai';
-import { AiFillLinkedin } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
 export default function MainPageComponent() {
@@ -57,7 +55,7 @@ export default function MainPageComponent() {
   }
 
   const handleBc = () => {
-    window.open();
+    window.open('', '_blank');
   }
 
   const handlePokemon = () => {
@@ -81,7 +79,7 @@ export default function MainPageComponent() {
             <Row className='descBox mt-5'>
               <h1><strong>Harrison Busby</strong></h1>
               <h2>Web Developer</h2>
-              <p className='mt-3 descText'>Hello! My name is Harrison Busby and I am a Web Developer. I am currently an attendee CodeStack Academy, an academy based out of San Joaquin County of Education that specializes in both Front-End and Back-End development; I am hoping to graduate in August.</p>
+              <p className='mt-3 descText'>Hello! My name is Harrison Busby and I am a Web Developer. I am currently an attendee CodeStack Academy, an academy based out of San Joaquin County of Education that specializes in both Front-End and Back-End development. I am hoping to graduate in August.</p>
             </Row>
           </Col>
 
@@ -120,7 +118,6 @@ export default function MainPageComponent() {
                         <li>Uses a Webscraper made in C# to get the most recent data</li>
                         <li>As the project manager, I led a team of two skilled developers to successfully deliver the project on time and with high quality output. We worked together closely and efficiently to ensure that all project goals were achieved. </li>
                         <li>Created using React, Typescript, HTML5. CSS, Bootstrap, Azure Cloud Services.</li>
-                        <li>Created prototype using Figma.</li>
                       </ul>
                     </Card.Text>
                   </Card.Body>
