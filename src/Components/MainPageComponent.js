@@ -234,7 +234,7 @@ export default function MainPageComponent() {
             </Col>
             
             <Col className='' style={{textAlign:'end',fontSize:'15px'}}>
-            <h4><u>Repositories/LinkedIn</u></h4>
+            <h4><u>Github Repositories/LinkedIn</u></h4>
               <div className='mt-4' style={{fontSize:'15px'}}>Github - <button className='linkBtn' onClick={handleGit}><u>https://github.com/HarrisonTBusby?tab=repositories</u></button></div>
               <br/>
               <div style={{fontSize:'15px'}}>LinkedIn - <button className='linkBtn' onClick={handleLink}><u>https://www.linkedin.com/in/harrison-busby-a4241018b/</u></button></div>
