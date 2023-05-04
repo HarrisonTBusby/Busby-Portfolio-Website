@@ -30,6 +30,7 @@ body{
 
 .projHeading span {
   display: inline-block;
+  letter-spacing: 5px;
   animation: showText 3.0s ease-in-out forwards;
 }
 

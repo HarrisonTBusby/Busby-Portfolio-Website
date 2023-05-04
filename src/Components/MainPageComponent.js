@@ -15,13 +15,10 @@ import Cloud from '../Assets/cloud-icon-8.png';
 import { Link } from 'react-router-dom';
 
 export default function MainPageComponent() {
-
-
   const [show1, setShow1] = useState(false);
   const [show2, setShow2] = useState(false);
   const [show3, setShow3] = useState(false);
-
-
+  
   const handleClick1 = () => {
     setShow1(!show1);
   }
@@ -66,10 +63,6 @@ export default function MainPageComponent() {
     window.open('https://busbyhweatherappredux.azurewebsites.net/', '_blank');
   }
 
-
-
-  
-
   return (
     <body>
       <NavBarComponent />
@@ -77,7 +70,7 @@ export default function MainPageComponent() {
         <Row className='mt-5'>
           <Col>
             <Row className='descBox mt-5'>
-              <h1><strong>Harrison Busby</strong></h1>
+              <h1 style={{letterSpacing:'5px'}}><strong>Harrison Busby</strong></h1>
               <h2>Web Developer</h2>
               <p className='mt-3 descText'>Hello! My name is Harrison Busby and I am a Web Developer. I am currently an attendee CodeStack Academy, an academy based out of San Joaquin County of Education that specializes in both Front-End and Back-End development. I am hoping to graduate in August.</p>
             </Row>
@@ -212,9 +205,8 @@ export default function MainPageComponent() {
 
           </Row>
         </div>
-
       </Container>
-
+     
       <footer className='mt-5' id='Socials'>
         <div className='footerBg'>
           <Row className='mt-5' style={{padding:'40px'}}>
@@ -239,6 +231,8 @@ export default function MainPageComponent() {
           </Row>
         </div>
       </footer>
+     
+      
     </body>
   )
 }
