@@ -6,11 +6,25 @@ body{
 }
 
 .headshotBackground{
-  width: 360px;
+  width: 320px;
   height: auto;
   border-radius: 200px;
   position: relative;
   box-shadow: 0 0 10px 0 #00BFFF;
+}
+
+.bgImg{
+  background-image: url('./Assets/output-onlinepngtools.png');
+}
+
+@media screen and (max-width: 768px) {
+  .cardBg{
+    font-size: 10px;
+    padding: 10px !important;
+  }
+  .linkBtn {
+    font-size: 15px;
+  }
 }
 
 .descBox{
@@ -77,7 +91,7 @@ body{
   }
 
 .ProjectSpacer{
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 .ProjectSpacer2{
@@ -90,6 +104,7 @@ body{
   box-shadow: 0px 0px 10px 2px #00BFFF;
   display: flex;
   align-items: center;
+  height: 500px ;
 }
 
 .projImg1{

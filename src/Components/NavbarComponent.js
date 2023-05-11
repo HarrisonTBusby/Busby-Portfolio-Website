@@ -4,20 +4,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function NavBarComponent() {
   return (
-      <Navbar expand="lg" variant='dark'>
+      <Navbar collapseOnSelect expand="lg" variant='dark'>
       <Container>
         <Navbar.Brand className='navFontColor'>busbyharrison.dev</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className='d-flex justify-content-end'>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav>
-            <Nav.Link href="#Summary">Summary</Nav.Link>
-            <Nav.Link href="#Projects">Projects</Nav.Link>
-            <Nav.Link href="#AboutMe">About Me</Nav.Link>
-            <Nav.Link href="#Socials">Socials</Nav.Link>
+            <Nav.Link className='d-flex justify-content-end' href="#Summary">Summary</Nav.Link>
+            <Nav.Link className='d-flex justify-content-end' href="#Projects">Projects</Nav.Link>
+            <Nav.Link className='d-flex justify-content-end' href="#AboutMe">About Me</Nav.Link>
+            <Nav.Link className='d-flex justify-content-end' href="#Socials">Socials</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Navbar> 
   );
 }
 
