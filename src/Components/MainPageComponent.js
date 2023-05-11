@@ -12,7 +12,6 @@ import BcLogo from '../Assets/BuildComp_Logo-removebg-preview (1).png';
 import PokeBall from '../Assets/Poké_Ball_icon.svg.png';
 import Cloud from '../Assets/iconizer-10cE3B01.png';
 
-
 export default function MainPageComponent() {
   const [show1, setShow1] = useState(false);
   const [show2, setShow2] = useState(false);
@@ -160,7 +159,6 @@ export default function MainPageComponent() {
 
         </div>
 
-
         <div className='ProjectSpacer'>
           <div>
             <div className='projHeading d-flex justify-content-center' id='AboutMe'>
@@ -241,9 +239,6 @@ export default function MainPageComponent() {
           </Container>
         </div>
       </footer>
-
-
-
     </body>
   )
 }
