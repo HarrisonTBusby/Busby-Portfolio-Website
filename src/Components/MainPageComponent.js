@@ -10,7 +10,7 @@ import NicePic2 from '../Assets/IMG_1711.jpg';
 import Graduation from '../Assets/Graduation.jpg'
 import BcLogo from '../Assets/BuildComp_Logo-removebg-preview (1).png';
 import PokeBall from '../Assets/Poké_Ball_icon.svg.png';
-import Cloud from '../Assets/cloud-icon-8.png';
+import Cloud from '../Assets/iconizer-10cE3B01.png';
 
 
 export default function MainPageComponent() {
