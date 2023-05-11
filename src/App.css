@@ -2,7 +2,7 @@ body{
   background-image: linear-gradient(to bottom left, #0F0F37, #26495e) !important;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white !important;
+  color: rgb(232, 232, 232) !important;
 }
 
 .headshotBackground{
@@ -145,7 +145,7 @@ body{
 }
 
 .footerBg{
-  background-color: #3c3c3c;
+  background-image: linear-gradient(to bottom,#575656,#3c3c3c);
   color: rgb(255, 255, 255);
 }
 

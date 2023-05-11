@@ -183,7 +183,7 @@ export default function MainPageComponent() {
                   <img src={NicePic} style={{ width: '100%', height: 'auto', borderRadius: '4px', objectFit: 'cover' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src={Graduation} style={{maxWidth: '100%', height: 'auto', borderRadius: '4px', objectFit: 'cover'}} />
+                  <img src={Graduation} style={{ maxWidth: '100%', height: 'auto', borderRadius: '4px', objectFit: 'cover' }} />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img src={NicePic2} style={{ width: '100%', height: 'auto', borderRadius: '4px', objectFit: 'cover' }} />
@@ -200,47 +200,47 @@ export default function MainPageComponent() {
       </Container>
 
       <footer className='mt-5' id='Socials'>
-  <div className='footerBg'>
-    <Container>
-      <Row className='mt-5' style={{ padding: '40px' }}>
-        <Col xs={12} md={6} lg={6} xl={6} xxl={6}>
-          <h4><u>Directives</u></h4>
-          <div className='mt-5'>
-            <button className='linkBtn' style={{ fontSize: '15px' }} onClick={handleSummary}>
-              <u>Summary</u>
-            </button>
-          </div>
-          <div className='mt-4'>
-            <button className='linkBtn' onClick={handleProject} style={{ fontSize: '15px' }}>
-              <u>Projects</u>
-            </button>
-          </div>
-          <div className='mt-4'>
-            <button className='linkBtn' onClick={handleAbout} style={{ fontSize: '15px' }}>
-              <u>About Me</u>
-            </button>
-          </div>
-        </Col>
+        <div className='footerBg'>
+          <Container>
+            <Row className='mt-5' style={{ padding: '40px' }}>
+              <Col xs={12} md={6} lg={6} xl={6} xxl={6}>
+                <h4><u>Directives</u></h4>
+                <div className='mt-5'>
+                  <button className='linkBtn' style={{ fontSize: '15px' }} onClick={handleSummary}>
+                    <u>Summary</u>
+                  </button>
+                </div>
+                <div className='mt-4'>
+                  <button className='linkBtn' onClick={handleProject} style={{ fontSize: '15px' }}>
+                    <u>Projects</u>
+                  </button>
+                </div>
+                <div className='mt-4'>
+                  <button className='linkBtn' onClick={handleAbout} style={{ fontSize: '15px' }}>
+                    <u>About Me</u>
+                  </button>
+                </div>
+              </Col>
 
-        <Col xs={12} md={6} lg={6} xl={6} xxl={6} className='mt-5 mt-md-0'>
-          <h4><u>Github Repositories/LinkedIn</u></h4>
-          <div className='mt-4' style={{ fontSize: '15px' }}>
-            Github - <button className='linkBtn' onClick={handleGit}><u>https://github.com/HarrisonTBusby?tab=repositories</u></button>
-          </div>
-          <br />
-          <div style={{ fontSize: '15px' }}>
-            LinkedIn - <button className='linkBtn' onClick={handleLink}><u>https://www.linkedin.com/in/harrison-busby-a4241018b/</u></button>
-          </div>
+              <Col xs={12} md={6} lg={6} xl={6} xxl={6} className='mt-5 mt-md-0'>
+                <h4><u>Github Repositories/LinkedIn</u></h4>
+                <div className='mt-4' style={{ fontSize: '15px' }}>
+                  Github - <button className='linkBtn' onClick={handleGit}><u>https://github.com/HarrisonTBusby?tab=repositories</u></button>
+                </div>
+                <br />
+                <div style={{ fontSize: '15px' }}>
+                  LinkedIn - <button className='linkBtn' onClick={handleLink}><u>https://www.linkedin.com/in/harrison-busby-a4241018b/</u></button>
+                </div>
 
-          <h4 className='mt-3'><u>Contact Information</u></h4>
-          <div className='mt-4'>Email - harrisontbusby@gmail.com</div>
-          <br />
-          <div>Phone Number - (530) 945-4842</div>
-        </Col>
-      </Row>
-    </Container>
-  </div>
-</footer>
+                <h4 className='mt-3'><u>Contact Information</u></h4>
+                <div className='mt-4'>Email - harrisontbusby@gmail.com</div>
+                <br />
+                <div>Phone Number - (530) 945-4842</div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </footer>
 
 
 
