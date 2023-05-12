@@ -155,5 +155,12 @@ body{
   color: white;
 }
 
+.resumeBtn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
 
 

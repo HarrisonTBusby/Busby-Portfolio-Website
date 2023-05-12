@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css';
 import NavBarComponent from './NavbarComponent';
 import { useState } from 'react';
-import { Container, Row, Col, Card, Button, Carousel } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button, Carousel, Modal } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Headshots from '../Assets/output-onlinepngtools.png';
 import NicePic from '../Assets/IMG_2398.jpg';
@@ -11,6 +11,9 @@ import Graduation from '../Assets/Graduation.jpg'
 import BcLogo from '../Assets/BuildComp_Logo-removebg-preview (1).png';
 import PokeBall from '../Assets/Poké_Ball_icon.svg.png';
 import Cloud from '../Assets/iconizer-10cE3B01.png';
+import Resume from '../Assets/HarrisonBusbyResume.pdf'
+import { SiReact, SiBootstrap, SiHtml5, SiJavascript, SiCss3, SiCsharp, SiDotnet, SiMysql, SiNodedotjs, SiTailwindcss, SiFigma, SiPostman, SiSlack, SiVisualstudiocode, SiJirasoftware, SiMicrosoftazure, SiTypescript, SiNotion } from "react-icons/si"
+import ModalComponent from './ModalComponent';
 
 export default function MainPageComponent() {
   const [show1, setShow1] = useState(false);
@@ -61,6 +64,7 @@ export default function MainPageComponent() {
     window.open('https://busbyhweatherappredux.azurewebsites.net/', '_blank');
   }
 
+
   return (
     <body>
       <NavBarComponent />
@@ -68,9 +72,39 @@ export default function MainPageComponent() {
         <Row className='mt-5'>
           <Col id='Summary' xs={12} md={12} lg={6} xl={6} className='d-flex justify-content-center'>
             <Row className='descBox mt-5'>
+              <div className='d-flex justify-content-end'>
+                <ModalComponent />
+              </div>
               <h1 style={{ letterSpacing: '5px' }}><strong>Harrison Busby</strong></h1>
               <h2>Web Developer</h2>
               <p className='mt-3 descText'>Hello! My name is Harrison Busby and I am a Web Developer. I am currently an attendee CodeStack Academy, an academy based out of San Joaquin County of Education that specializes in both Front-End and Back-End development. I am hoping to graduate in August.</p>
+              <Row>
+                <Col>
+                  <SiHtml5 size={25} style={{ marginRight: 10 }} />
+                  <SiCss3 size={25} style={{ marginRight: 10 }} />
+                  <SiJavascript size={25} style={{ marginRight: 10 }} />
+                  <SiTypescript size={25} style={{ marginRight: 10 }} />
+                  <SiCsharp size={25} style={{ marginRight: 10 }} />
+                  <SiMysql size={25} style={{ marginRight: 10 }} />
+                  <SiReact size={25} style={{ marginRight: 10 }} />
+                  <SiBootstrap size={25} style={{ marginRight: 10 }} />
+                  <SiTailwindcss size={25} style={{ marginRight: 10 }} />
+                  <SiDotnet size={25} style={{ marginRight: 10 }} />
+                  <SiNodedotjs size={25} style={{ marginRight: 10 }} />
+                </Col>
+
+              </Row>
+              <Row style={{ marginTop: 20 }}>
+                <Col>
+                  <SiFigma size={25} style={{ marginRight: 10 }} />
+                  <SiPostman size={25} style={{ marginRight: 10 }} />
+                  <SiSlack size={25} style={{ marginRight: 10 }} />
+                  <SiNotion size={25} style={{ marginRight: 10 }} />
+                  <SiVisualstudiocode size={25} style={{ marginRight: 10 }} />
+                  <SiJirasoftware size={25} style={{ marginRight: 10 }} />
+                  <SiMicrosoftazure size={25} style={{ marginRight: 10 }} />
+                </Col>
+              </Row>
             </Row>
           </Col>
 
