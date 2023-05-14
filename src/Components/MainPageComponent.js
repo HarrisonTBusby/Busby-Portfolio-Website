@@ -12,7 +12,7 @@ import BcLogo from '../Assets/BuildComp_Logo-removebg-preview (1).png';
 import PokeBall from '../Assets/Poké_Ball_icon.svg.png';
 import Cloud from '../Assets/iconizer-10cE3B01.png';
 import Resume from '../Assets/HarrisonBusbyResume.pdf'
-import { SiReact, SiBootstrap, SiHtml5, SiJavascript, SiCss3, SiCsharp, SiDotnet, SiMysql, SiNodedotjs, SiTailwindcss, SiFigma, SiPostman, SiSlack, SiVisualstudiocode, SiJirasoftware, SiMicrosoftazure, SiTypescript, SiNotion } from "react-icons/si"
+import { SiReact, SiBootstrap, SiHtml5, SiJavascript, SiCss3, SiCsharp, SiDotnet, SiMysql, SiNodedotjs, SiTailwindcss, SiFigma, SiPostman, SiSlack, SiVisualstudiocode, SiJirasoftware, SiMicrosoftazure, SiTypescript, SiNotion, SiGithub, SiLinkedin } from "react-icons/si"
 import ModalComponent from './ModalComponent';
 
 export default function MainPageComponent() {
@@ -42,6 +42,10 @@ export default function MainPageComponent() {
 
   const handleSummary = () => {
     window.location.href = '#Summary';
+  }
+
+  const handleSkills = () => {
+    window.location.href = '#Skills';
   }
 
   const handleProject = () => {
@@ -78,33 +82,8 @@ export default function MainPageComponent() {
               <h1 style={{ letterSpacing: '5px' }}><strong>Harrison Busby</strong></h1>
               <h2>Web Developer</h2>
               <p className='mt-3 descText'>Hello! My name is Harrison Busby and I am a Web Developer. I am currently an attendee CodeStack Academy, an academy based out of San Joaquin County of Education that specializes in both Front-End and Back-End development. I am hoping to graduate in August.</p>
-              <Row>
-                <Col>
-                  <SiHtml5 size={25} style={{ marginRight: 10 }} />
-                  <SiCss3 size={25} style={{ marginRight: 10 }} />
-                  <SiJavascript size={25} style={{ marginRight: 10 }} />
-                  <SiTypescript size={25} style={{ marginRight: 10 }} />
-                  <SiCsharp size={25} style={{ marginRight: 10 }} />
-                  <SiMysql size={25} style={{ marginRight: 10 }} />
-                  <SiReact size={25} style={{ marginRight: 10 }} />
-                  <SiBootstrap size={25} style={{ marginRight: 10 }} />
-                  <SiTailwindcss size={25} style={{ marginRight: 10 }} />
-                  <SiDotnet size={25} style={{ marginRight: 10 }} />
-                  <SiNodedotjs size={25} style={{ marginRight: 10 }} />
-                </Col>
 
-              </Row>
-              <Row style={{ marginTop: 20 }}>
-                <Col>
-                  <SiFigma size={25} style={{ marginRight: 10 }} />
-                  <SiPostman size={25} style={{ marginRight: 10 }} />
-                  <SiSlack size={25} style={{ marginRight: 10 }} />
-                  <SiNotion size={25} style={{ marginRight: 10 }} />
-                  <SiVisualstudiocode size={25} style={{ marginRight: 10 }} />
-                  <SiJirasoftware size={25} style={{ marginRight: 10 }} />
-                  <SiMicrosoftazure size={25} style={{ marginRight: 10 }} />
-                </Col>
-              </Row>
+
             </Row>
           </Col>
 
@@ -113,7 +92,54 @@ export default function MainPageComponent() {
           </Col>
         </Row>
 
-        <div className='mt-5 d-flex justify-content-center'>
+        <div className='ProjectSpacer2 d-flex justify-content-center'>
+          <div className='projHeading' id='Skills'>
+            <span>S</span>
+            <span>k</span>
+            <span>i</span>
+            <span>l</span>
+            <span>l</span>
+            <span>s</span>
+          </div>
+        </div>
+
+        <div className='descBox mt-5' style={{ padding: 30 }}>
+          <Row>
+            <h4 className='d-flex justify-content-center'>Languages</h4>
+            <Col className='d-flex justify-content-center mt-3'>
+              <SiHtml5 size={80} style={{ marginRight: 10 }} />
+              <SiCss3 size={80} style={{ marginRight: 10 }} />
+              <SiJavascript size={80} style={{ marginRight: 10 }} />
+              <SiTypescript size={80} style={{ marginRight: 10 }} />
+              <SiCsharp size={80} style={{ marginRight: 10 }} />
+              <SiMysql size={80} style={{ marginRight: 10 }} />
+            </Col>
+          </Row>
+          <Row>
+          <h4 className='d-flex justify-content-center mt-3'>Frameworks & Libraries</h4>
+            <Col className='d-flex justify-content-center mt-3'>
+              <SiReact size={80} style={{ marginRight: 10 }} />
+              <SiBootstrap size={80} style={{ marginRight: 10 }} />
+              <SiTailwindcss size={80} style={{ marginRight: 10 }} />
+              <SiDotnet size={80} style={{ marginRight: 10 }} />
+              <SiNodedotjs size={80} style={{ marginRight: 10 }} />
+            </Col>
+          </Row>
+          <Row className='mt-3'>
+            <h4 className='d-flex justify-content-center'>Productivity Tools</h4>
+            <Col className='d-flex justify-content-center mt-3'>
+              <SiFigma size={80} style={{ marginRight: 10 }} />
+              <SiPostman size={80} style={{ marginRight: 10 }} />
+              <SiSlack size={80} style={{ marginRight: 10 }} />
+              <SiNotion size={80} style={{ marginRight: 10 }} />
+              <SiVisualstudiocode size={80} style={{ marginRight: 10 }} />
+              <SiJirasoftware size={80} style={{ marginRight: 10 }} />
+              <SiMicrosoftazure size={80} style={{ marginRight: 10 }} />
+            </Col>
+          </Row>
+        </div>
+
+        <div className='ProjectSpacer2 d-flex justify-content-center'>
           <div className='projHeading' id='Projects'>
             <span>P</span>
             <span>r</span>
@@ -243,6 +269,11 @@ export default function MainPageComponent() {
                   </button>
                 </div>
                 <div className='mt-4'>
+                  <button className='linkBtn' style={{ fontSize: '15px' }} onClick={handleSkills}>
+                    <u>Skills</u>
+                  </button>
+                </div>
+                <div className='mt-4'>
                   <button className='linkBtn' onClick={handleProject} style={{ fontSize: '15px' }}>
                     <u>Projects</u>
                   </button>
@@ -256,13 +287,11 @@ export default function MainPageComponent() {
 
               <Col xs={12} md={6} lg={6} xl={6} xxl={6} className='mt-5 mt-md-0'>
                 <h4><u>Github Repositories/LinkedIn</u></h4>
-                <div className='mt-4' style={{ fontSize: '15px' }}>
-                  Github - <button className='linkBtn' onClick={handleGit}><u>https://github.com/HarrisonTBusby?tab=repositories</u></button>
+                <div className='mt-4' style={{ fontSize: '15px', }}>
+                  <SiGithub size={50} onClick={handleGit} style={{ marginRight: 10 }} />
+                  <SiLinkedin size={50} onClick={handleLink} />
                 </div>
                 <br />
-                <div style={{ fontSize: '15px' }}>
-                  LinkedIn - <button className='linkBtn' onClick={handleLink}><u>https://www.linkedin.com/in/harrison-busby-a4241018b/</u></button>
-                </div>
 
                 <h4 className='mt-3'><u>Contact Information</u></h4>
                 <div className='mt-4'>Email - harrisontbusby@gmail.com</div>

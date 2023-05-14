@@ -21,7 +21,7 @@ export default function ModalComponent() {
       </button>
 
       <Modal show={showModal} onHide={closeModal}>
-          <iframe src={resumePdf} style={{height:600, width:500}}/>  
+          <iframe src={resumePdf} target='_blank' style={{height:600, width:500}}/>  
       </Modal>
       </>
   )

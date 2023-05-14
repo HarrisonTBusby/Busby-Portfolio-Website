@@ -11,6 +11,7 @@ export default function NavBarComponent() {
         <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav>
             <Nav.Link className='d-flex justify-content-end' href="#Summary">Summary</Nav.Link>
+            <Nav.Link className='d-flex justify-content-end' href="#Skills">Skills</Nav.Link>
             <Nav.Link className='d-flex justify-content-end' href="#Projects">Projects</Nav.Link>
             <Nav.Link className='d-flex justify-content-end' href="#AboutMe">About Me</Nav.Link>
             <Nav.Link className='d-flex justify-content-end' href="#Socials">Socials</Nav.Link>
