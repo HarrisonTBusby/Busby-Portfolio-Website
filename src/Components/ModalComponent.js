@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {Modal} from 'react-bootstrap'
-import resumePdf from '../Assets/Harrison Busby Resume.pdf'
+import resumePdf from '../Assets/HarrisonBusbyResume.pdf'
 import '../App.css';
 
 export default function ModalComponent() {
