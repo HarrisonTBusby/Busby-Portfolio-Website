@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
-import {Button, Modal} from 'react-bootstrap'
+import {Modal} from 'react-bootstrap'
 import resumePdf from '../Assets/Harrison Busby Resume.pdf'
 import '../App.css';
 
